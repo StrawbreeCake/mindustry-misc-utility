@@ -11,4 +11,4 @@ but for now we will just convert liquids to items and back again.
 Installation:
 * Open "mods" in game
 * Open "import from GitHub"
-* Write: StrawbreeCake/misc-utility
+* Write: StrawbreeCake/mindustry-misc-utility
