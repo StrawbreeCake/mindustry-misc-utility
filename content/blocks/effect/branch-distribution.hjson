@@ -1,0 +1,7 @@
+name: "Distribution"
+type: "Block"
+description: "Distribution Blocks."
+size: 2
+
+alwaysUnlocked: true
+research: "team-miscellaneous"

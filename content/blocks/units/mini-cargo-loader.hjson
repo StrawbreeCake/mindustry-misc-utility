@@ -17,7 +17,7 @@ requirements: [
 	tungsten/80
 ]
 category: "distribution"
-research: "team-miscellaneous"
+research: "branch-distribution"
 
 envEnabled: 17 # enabled on Terrestrial (1) + Scorching (16) = 17
 envDisabled: 4 # disabled on Space (4) (Serpulo)
