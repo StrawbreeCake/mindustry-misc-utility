@@ -1,0 +1,12 @@
+type: Block
+name: Impassable Barrier
+description: An impenetrable barrier. Enemy ground AI treats this as natural terrain and will route around it.
+size: 1
+solid: true
+destructible: false
+targetable: false
+category: defense
+requirements: [
+  beryllium/1
+]
+research: beryllium-wall

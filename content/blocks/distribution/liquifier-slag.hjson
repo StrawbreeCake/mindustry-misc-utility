@@ -1,0 +1,22 @@
+name: "Liquifier Slag"
+type: "GenericCrafter"
+description: "Melts slag gel into liquid slag."
+liquidCapacity: 100
+itemCapacity: 10
+outputLiquid: slag/15.0
+size: 1
+hasLiquids: true
+craftTime: 4
+consumes: {
+	item: slag-gel
+}
+requirements: [
+	graphite/30
+	silicon/30
+]
+category: "liquid"
+research: "solidifier-slag"
+
+envEnabled: 3 # enabled on Terrestrial (1) + Space/Any (2) = 3
+envDisabled: 0 # disabled nowhere
+shownPlanets: [ erekir, serpulo ]

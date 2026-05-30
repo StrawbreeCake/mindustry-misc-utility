@@ -1,0 +1,22 @@
+type: "ConsumeGenerator"
+name: "Crystalline Generator"
+description: "Uses high frequencies to decompose crystalline energy into power."
+itemCapacity: 20
+size: 3
+powerProduction: 10
+itemDuration: 120
+generateEffect: "smeltsmoke"
+consumes: {
+	item: "crystalline-energy"
+}
+requirements: [
+	graphite/200
+	silicon/100
+	surge-alloy/20
+]
+category: "power"
+research: "energy-crystallizer"
+
+envEnabled: 3 # enabled on Terrestrial (1) + Space/Any (2) = 3
+envDisabled: 0 # disabled nowhere
+shownPlanets: [ erekir, serpulo ]

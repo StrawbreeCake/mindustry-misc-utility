@@ -1,0 +1,22 @@
+name: "Solidifier Cryofluid"
+type: "GenericCrafter"
+description: "Jellifies cryofluid."
+liquidCapacity: 60
+itemCapacity: 10
+size: 1
+hasLiquids: true
+craftTime: 4
+consumes: {
+	liquid: cryofluid/15.0
+}
+outputItem: cryofluid-gel/1
+requirements: [
+	graphite/30
+	silicon/30
+]
+category: "liquid"
+research: "branch-gelation"
+
+envEnabled: 5 # enabled on Terrestrial (1) + Space (4) = 5
+envDisabled: 16 # disabled on Scorching (Erekir)
+shownPlanets: [ serpulo ]

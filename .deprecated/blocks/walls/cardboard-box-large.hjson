@@ -1,0 +1,10 @@
+name: Large Cardboard Box
+type: wall
+health: 80
+size: 2
+armor: 1
+category: defense
+research: cardboard-box
+requirements: [
+  beryllium/2
+]

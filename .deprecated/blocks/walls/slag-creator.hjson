@@ -1,0 +1,9 @@
+name: Slag Creator
+description: Continuously places a molten slag tile directly in front.
+health: 120
+size: 1
+category: defense
+requirements: [
+  beryllium/1
+]
+research: beryllium-wall

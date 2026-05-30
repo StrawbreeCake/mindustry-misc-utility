@@ -1,0 +1,22 @@
+name: "Solidifier Neoplasm"
+type: "GenericCrafter"
+description: "Jellifies neoplasm."
+liquidCapacity: 60
+itemCapacity: 10
+size: 1
+hasLiquids: true
+craftTime: 4
+consumes: {
+	liquid: neoplasm/15.0
+}
+outputItem: neoplasm-gel/1
+requirements: [
+	graphite/30
+	silicon/30
+]
+category: "liquid"
+research: "branch-gelation"
+
+envEnabled: 17 # enabled on Terrestrial (1) + Scorching (16) = 17
+envDisabled: 4 # disabled on Space (4) (Serpulo)
+shownPlanets: [ erekir ]

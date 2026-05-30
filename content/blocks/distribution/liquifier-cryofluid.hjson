@@ -1,0 +1,22 @@
+name: "Liquifier Cryofluid"
+type: "GenericCrafter"
+description: "Melts cryofluid gel into liquid cryofluid."
+liquidCapacity: 100
+itemCapacity: 10
+outputLiquid: cryofluid/15.0
+size: 1
+hasLiquids: true
+craftTime: 4
+consumes: {
+	item: cryofluid-gel
+}
+requirements: [
+	graphite/30
+	silicon/30
+]
+category: "liquid"
+research: "solidifier-cryofluid"
+
+envEnabled: 5 # enabled on Terrestrial (1) + Space (4) = 5
+envDisabled: 16 # disabled on Scorching (Erekir)
+shownPlanets: [ serpulo ]

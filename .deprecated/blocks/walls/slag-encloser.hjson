@@ -1,0 +1,13 @@
+type: Wall
+name: Slag Encloser
+description: "Draw a closed loop with these blocks. The moment the loop is sealed, the inside will flood with molten slag."
+size: 1
+health: 400
+category: effect
+emitLight: true
+lightRadius: 45
+lightColor: ff8c00 # A hex code for bright orange
+requirements: [
+  beryllium/1
+]
+research: beryllium-wall

@@ -1,0 +1,22 @@
+name: "Liquifier Neoplasm"
+type: "GenericCrafter"
+description: "Melts neoplasm gel into liquid neoplasm."
+liquidCapacity: 100
+itemCapacity: 10
+outputLiquid: neoplasm/15.0
+size: 1
+hasLiquids: true
+craftTime: 4
+consumes: {
+	item: neoplasm-gel
+}
+requirements: [
+	graphite/30
+	silicon/30
+]
+category: "liquid"
+research: "solidifier-neoplasm"
+
+envEnabled: 17 # enabled on Terrestrial (1) + Scorching (16) = 17
+envDisabled: 4 # disabled on Space (4) (Serpulo)
+shownPlanets: [ erekir ]

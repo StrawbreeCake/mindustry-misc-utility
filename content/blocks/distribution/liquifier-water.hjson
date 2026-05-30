@@ -1,0 +1,22 @@
+name: "Liquifier Water"
+type: "GenericCrafter"
+description: "Melts water gel into liquid water."
+liquidCapacity: 100
+itemCapacity: 10
+outputLiquid: water/15.0
+size: 1
+hasLiquids: true
+craftTime: 4
+consumes: {
+	item: water-gel
+}
+requirements: [
+	graphite/30
+	silicon/30
+]
+category: "liquid"
+research: "solidifier-water"
+
+envEnabled: 3 # enabled on Terrestrial (1) + Space/Any (2) = 3
+envDisabled: 0 # disabled nowhere
+shownPlanets: [ erekir, serpulo ]

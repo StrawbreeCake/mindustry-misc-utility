@@ -1,0 +1,7 @@
+name: "Liquids"
+type: "Block"
+description: "Liquid Blocks."
+size: 2
+
+alwaysUnlocked: true
+research: "team-miscellaneous"

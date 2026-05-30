@@ -1,0 +1,23 @@
+name: "Energy Crystallizer"
+type: "GenericCrafter"
+description: "Harmonic lasers spin pure energy into crystalline form."
+itemCapacity: 30
+hasPower: true
+size: 2
+craftTime: 600
+updateEffect: "smeltsmoke"
+consumes: {
+	power: 2
+}
+outputItem: crystalline-energy/1
+requirements: [
+	graphite/400
+	silicon/300
+	surge-alloy/80
+]
+category: "power"
+research: "branch-power"
+
+envEnabled: 3 # enabled on Terrestrial (1) + Space/Any (2) = 3
+envDisabled: 0 # disabled nowhere
+shownPlanets: [ erekir, serpulo ]

@@ -1,0 +1,15 @@
+name: "Miscellaneous"
+localizedName: "Miscellaneous"
+type: "Block"
+description: "Miscellaneous extras."
+size: 4
+
+#hidden: true
+alwaysUnlocked: true
+
+research: {
+    name: "Miscellaneous"
+    root: true
+    planets: [ serpulo, erekir ]
+    requiresUnlock: false
+}

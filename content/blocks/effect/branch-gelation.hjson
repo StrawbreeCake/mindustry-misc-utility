@@ -1,0 +1,7 @@
+name: "Gelation Blocks"
+type: "Block"
+description: "Gelation Blocks"
+size: 2
+
+alwaysUnlocked: true
+research: "branch-liquid"

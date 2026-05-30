@@ -1,0 +1,22 @@
+name: "Liquifier Nitrogen"
+type: "GenericCrafter"
+description: "Melts nitrogen gel into liquid nitrogen."
+liquidCapacity: 100
+itemCapacity: 10
+outputLiquid: nitrogen/15.0
+size: 1
+hasLiquids: true
+craftTime: 4
+consumes: {
+	item: nitrogen-gel
+}
+requirements: [
+	graphite/30
+	silicon/30
+]
+category: "liquid"
+research: "solidifier-nitrogen"
+
+envEnabled: 17 # enabled on Terrestrial (1) + Scorching (16) = 17
+envDisabled: 4 # disabled on Space (4) (Serpulo)
+shownPlanets: [ erekir ]

@@ -1,0 +1,28 @@
+name: "Liquifier Arkycite"
+type: "GenericCrafter"
+description: "Melts arkycite gel into liquid arkycite."
+liquidCapacity: 100
+itemCapacity: 10
+
+# output per tick
+outputLiquid: arkycite/15.0
+size: 1
+hasLiquids: true
+
+# time per craft: 60 ticks/sec
+craftTime: 4
+
+# consumption per tick
+consumes: {
+	item: arkycite-gel
+}
+requirements: [
+	graphite/30
+	silicon/30
+]
+category: "liquid"
+research: "solidifier-arkycite"
+
+envEnabled: 17 # enabled on Terrestrial (1) + Scorching (16) = 17
+envDisabled: 4 # disabled on Space (4) (Serpulo)
+shownPlanets: [ erekir ]

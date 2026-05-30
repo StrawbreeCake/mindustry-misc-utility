@@ -1,0 +1,10 @@
+name: Cardboard Box
+type: wall
+health: 10
+size: 1
+armor: 1
+category: defense
+research: beryllium-wall
+requirements: [
+  beryllium/1
+]

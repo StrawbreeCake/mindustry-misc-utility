@@ -1,0 +1,7 @@
+name: "Power"
+type: "Block"
+description: "Power Blocks."
+size: 2
+
+alwaysUnlocked: true
+research: "team-miscellaneous"
