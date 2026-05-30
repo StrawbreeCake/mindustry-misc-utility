@@ -3,10 +3,10 @@ type: "GenericCrafter"
 description: "Melts nitrogen gel into liquid nitrogen."
 liquidCapacity: 100
 itemCapacity: 10
-outputLiquid: nitrogen/15.0
+outputLiquid: nitrogen/1.0
 size: 1
 hasLiquids: true
-craftTime: 4
+craftTime: 10
 consumes: {
 	item: nitrogen-gel
 }

@@ -3,10 +3,10 @@ type: "GenericCrafter"
 description: "Melts neoplasm gel into liquid neoplasm."
 liquidCapacity: 100
 itemCapacity: 10
-outputLiquid: neoplasm/15.0
+outputLiquid: neoplasm/1.0
 size: 1
 hasLiquids: true
-craftTime: 4
+craftTime: 10
 consumes: {
 	item: neoplasm-gel
 }

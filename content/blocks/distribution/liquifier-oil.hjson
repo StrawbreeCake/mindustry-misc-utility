@@ -3,10 +3,10 @@ type: "GenericCrafter"
 description: "Melts oil gel into liquid oil."
 liquidCapacity: 100
 itemCapacity: 10
-outputLiquid: oil/15.0
+outputLiquid: oil/1.0
 size: 1
 hasLiquids: true
-craftTime: 4
+craftTime: 10
 consumes: {
 	item: oil-gel
 }

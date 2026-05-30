@@ -7,12 +7,12 @@ size: 1
 hasLiquids: true
 
 # time per craft: 60 ticks/sec
-craftTime: 4
+craftTime: 10
 
 # consumption per tick
 # CONVERSION: 60 LIQUID = 1 GEL
 consumes: {
-	liquid: arkycite/15.0
+	liquid: arkycite/1.0
 }
 
 # output per craft

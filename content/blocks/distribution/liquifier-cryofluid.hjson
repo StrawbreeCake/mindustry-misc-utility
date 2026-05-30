@@ -3,10 +3,10 @@ type: "GenericCrafter"
 description: "Melts cryofluid gel into liquid cryofluid."
 liquidCapacity: 100
 itemCapacity: 10
-outputLiquid: cryofluid/15.0
+outputLiquid: cryofluid/1.0
 size: 1
 hasLiquids: true
-craftTime: 4
+craftTime: 10
 consumes: {
 	item: cryofluid-gel
 }

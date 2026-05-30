@@ -3,10 +3,10 @@ type: "GenericCrafter"
 description: "Melts cyanogen gel into liquid cyanogen."
 liquidCapacity: 100
 itemCapacity: 10
-outputLiquid: cyanogen/15.0
+outputLiquid: cyanogen/1.0
 size: 1
 hasLiquids: true
-craftTime: 4
+craftTime: 10
 consumes: {
 	item: cyanogen-gel
 }

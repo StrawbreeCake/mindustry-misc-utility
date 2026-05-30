@@ -4,18 +4,27 @@ description: "Melts arkycite gel into liquid arkycite."
 liquidCapacity: 100
 itemCapacity: 10
 
-# output per tick
-outputLiquid: arkycite/15.0
-size: 1
-hasLiquids: true
+# ticks per cycle (60 ticks = 1 second)
 
-# time per craft: 60 ticks/sec
-craftTime: 4
-
-# consumption per tick
+# items consume per cycle
 consumes: {
 	item: arkycite-gel
 }
+
+# craftTime = 60 / (items per sec); here 6/sec
+craftTime: 10
+
+
+
+# liquids output per tick
+# outputLiquid = (liquid per sec) / 60; here 60/sec
+outputLiquid: arkycite/1.0
+size: 1
+hasLiquids: true
+
+
+
+
 requirements: [
 	graphite/30
 	silicon/30

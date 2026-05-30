@@ -5,9 +5,9 @@ liquidCapacity: 60
 itemCapacity: 10
 size: 1
 hasLiquids: true
-craftTime: 4
+craftTime: 10
 consumes: {
-	liquid: hydrogen/15.0
+	liquid: hydrogen/1.0
 }
 outputItem: hydrogen-gel/1
 requirements: [

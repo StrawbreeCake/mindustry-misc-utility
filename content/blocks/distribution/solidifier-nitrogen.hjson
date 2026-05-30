@@ -5,9 +5,9 @@ liquidCapacity: 60
 itemCapacity: 10
 size: 1
 hasLiquids: true
-craftTime: 4
+craftTime: 10
 consumes: {
-	liquid: nitrogen/15.0
+	liquid: nitrogen/1.0
 }
 outputItem: nitrogen-gel/1
 requirements: [

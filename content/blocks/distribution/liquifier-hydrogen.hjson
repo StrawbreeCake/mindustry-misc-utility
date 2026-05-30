@@ -3,10 +3,10 @@ type: "GenericCrafter"
 description: "Melts hydrogen gel into liquid hydrogen."
 liquidCapacity: 100
 itemCapacity: 10
-outputLiquid: hydrogen/15.0
+outputLiquid: hydrogen/1.0
 size: 1
 hasLiquids: true
-craftTime: 4
+craftTime: 10
 consumes: {
 	item: hydrogen-gel
 }

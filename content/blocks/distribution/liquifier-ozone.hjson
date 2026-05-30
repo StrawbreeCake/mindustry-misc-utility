@@ -3,10 +3,10 @@ type: "GenericCrafter"
 description: "Melts ozone gel into liquid ozone."
 liquidCapacity: 100
 itemCapacity: 10
-outputLiquid: ozone/15.0
+outputLiquid: ozone/1.0
 size: 1
 hasLiquids: true
-craftTime: 4
+craftTime: 10
 consumes: {
 	item: ozone-gel
 }
