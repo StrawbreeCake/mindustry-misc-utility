@@ -16,6 +16,12 @@ requirements: [
 	silicon/80
 	tungsten/80
 ]
+
+researchCost: [
+	graphite/2000
+	silicon/1000
+]
+
 category: "distribution"
 research: "branch-distribution"
 
