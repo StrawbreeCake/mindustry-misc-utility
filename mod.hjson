@@ -4,4 +4,4 @@ subtitle: "Liquid-item conversion."
 description:"Convert liquids to items for drone transportation. Check tech tree \"Miscellaneous\" for more details."
 author:"StrawbreeCake"
 minGameVersion: 143
-version: 0.2.1
+version: 0.2.3
