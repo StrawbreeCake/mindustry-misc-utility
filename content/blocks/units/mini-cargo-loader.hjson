@@ -1,0 +1,24 @@
+name: "Mini Cargo Loader"
+type: "UnitCargoLoader"
+description: "Cheaper cargo drones."
+liquidCapacity: 100
+itemCapacity: 200
+size: 3
+hasLiquids: true
+craftTime: 480
+consumes: {
+	liquid: nitrogen/0.1667
+	power: 0.1333
+}
+
+requirements: [
+	oxide/20
+	silicon/80
+	tungsten/80
+]
+category: "distribution"
+research: "team-miscellaneous"
+
+envEnabled: 17 # enabled on Terrestrial (1) + Scorching (16) = 17
+envDisabled: 4 # disabled on Space (4) (Serpulo)
+shownPlanets: [ erekir ]
